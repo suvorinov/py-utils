@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "py-utils"
+version = "0.1.0"
+description = "Collection of small Python functions and classes"
+authors = ["Oleg Suvorinov <suvorinovoleg@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "py_utils"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = {extras = ["socks"], version = "^2.30.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
