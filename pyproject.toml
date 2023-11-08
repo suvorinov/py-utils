@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "Collection of small Python functions and classes"
 authors = ["Oleg Suvorinov <suvorinovoleg@yandex.ru>"]
 readme = "README.md"
+homepage="https://github.com/suvorinov/py_utils.git"
 packages = [{include = "py_utils"}]
 
 [tool.poetry.dependencies]
